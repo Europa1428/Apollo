@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 
     <meta charset="utf-8">
@@ -22,8 +22,14 @@
     <div class="fore">
       <div class="BG2"></div>
       <div class="socials">
+        <a id="Instagram" href="https://www.instagram.com/Europa.1428/" target="_blank">
+          <img src="Assets/5.webp" style="width:5vh;height:5vh;margin:2vh;margin-right:0;">
+          <label for="Instagram" style="font-size:180%;top:2.6vh;position:absolute;margin-left:.6vw;color:white;">Europa.1428</label>
+        </a>
       </div>
-      <p class="Main">Hello</p>
+      <p class="Main">Hello!</p>
+      <p class="Para">My name is Grady or Apollo, Either will grab my attention. I love cars, programming, and anything mechanical.<br>(Page is relatively empty as of yet, will be built upon over time.)</p>
+      <p style="text-align:left;left:1vh;top:96vh;color:white;position:absolute;">Made with love by Apollo <3</p>
     </div>
   </div>
   <style>
@@ -41,7 +47,13 @@
       font-family: "Montserrat";
       max-height: 200vh;
     }
-
+    .Para {
+      text-align: center;
+      color: white;
+      font-size: 120%;
+      z-index: 2;
+      position: relative;
+    }
     .Main {
       text-align: center;
       color: white;
@@ -58,11 +70,12 @@
     }
     .socials {
       margin: 2vw 2vw 2vw 2vw;
-      width: 15vw;
-      height: 40vh;
-      background-color: white;
+      width: 17em;
+      height: 9vh;
+      background-color: #485665;
       z-index: 2;
       position: relative;
+      border-radius: .8vh;
     }
     .BG {
       height: 100vh;
@@ -103,6 +116,7 @@
       width: 100vw;
       height: 100vh;
       background-image: url("Assets/4.jpg");
+      background-repeat: no-repeat;
     }
   </style>
   <script type="text/javascript" src="script.js">
