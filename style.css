@@ -1,0 +1,48 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+.BG {
+  height: 20%;
+  width: 100%;
+  background-color: #ff8330;
+  position: relative;
+  text-align: right;
+  color: white;
+  z-index: -1;
+  background-image: url("Assets/2.jpg");
+  background-size: 100%;
+  background-position-y: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  height: 3000px;
+  \\ border: inset red 5px;
+}
+
+.wrapper {
+  position: fixed;
+}
+.wrapper .box {
+  width: 100vw;
+  text-align: center;
+  font-size: 1000%;
+  color: white;
+  position: absolute;
+  top: 17vh;
+  font-weight: bold;
+}
+.fore {
+  position: relative;
+  background: #1E3231;
+  width: 100vw;
+  height: 80%;
+}
